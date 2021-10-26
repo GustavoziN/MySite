@@ -1,0 +1,246 @@
+
+body {
+    background: #141b29;
+}
+
+/* formatação card perfil */
+.card-container {
+     width: 300px;
+     height: 380px;
+     background: rgb(245, 245, 245);
+     border-radius: 6px;
+     box-shadow: 0 1px 5px 1px rgba(0,0,0,.3 );
+ }
+
+ .top {
+     height: 80px;
+     border-radius: 6px;
+     background: #6a5acd;
+     display: flex;
+     justify-content: center;
+ }
+
+ .image-container {
+     background-color: #fff;
+     width: 100px;
+     height: 100px;
+     padding: 5px;
+     border-radius: 50%;
+     margin-top: 40px;
+ }
+
+ .image-container img {
+     background-color: #fff;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+
+ .bottom {
+     background-color: #fff;
+     padding: 20px;
+     padding-top: 70px;
+     text-align: center;
+ }
+
+
+ .bottom h3 {
+     padding: 10px 0px;
+     line-height: .4;
+     font-size: 1.8em;
+ }
+
+ .bottom h4 {
+    line-height: .4;
+    font-size: 1.2em;
+    color: #6a5acd;
+ }
+
+ * {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .bottom p {
+     color: rgba(0, 0, 0, .7);
+     margin-bottom: 20px;
+ }
+
+ span a{
+     padding: 5px;
+     color: black;
+ }
+
+ /* fim da formatação do card perfil */     
+
+.center {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    background: #333;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skillBox {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0; 
+}
+
+.skillBox p {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 1px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.skillBox p:nth-child(2) {
+    float:right;
+    position: relative;
+    top: -25px;
+}
+
+.Skill {
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #0fffb7;
+    border-radius: 2px;
+}
+
+
+.skill_level {
+    background: #0fffb7;
+    width: 100%;
+    height: 10px;
+}
+
+section, #spacing{
+    padding-top: 20px;
+}
+
+/* formatação sobre */
+
+
+#sobre {
+    color: #fff;
+}
+
+#sobre h4 {
+    color: #6A5ACD;
+}
+
+.fundo-sobre {
+    border: 2px solid #6a5acd;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    background: #333333;
+    text-align: center;
+}
+
+
+/* formatação experiências */
+
+
+.cfg-ex, p,  a{
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.cfg-ex,  a:hover{
+   color: white;
+   border-radius: 10px;
+   border: 3px solid #6a5acd;
+   text-decoration: none;
+   transition: 0.9s;
+   padding: 5px 35px;
+   background-color: #6a5acd;
+  }
+
+.cfg-ex {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #333333;
+    padding: 20px;
+}
+
+/* formatação footer */
+
+footer {
+    margin-top: 60px;
+    width: 100%;
+    background: #1f1e1e;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: block;
+}
+
+footer .social_icon, footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li, footer .menu li {
+    list-style: none;
+}
+
+footer .social_icon li a, footer .menu li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover {
+    transform: translateY(-10px);
+}
+footer .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+
+
+
+
