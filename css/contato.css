@@ -1,0 +1,93 @@
+body {
+    background: #141b29;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#fundo-contato {
+    border-radius: 10px;
+    border: solid 2px #6A5ACD;
+    margin-top: 30px;
+    padding-bottom: 170px;
+    width: 100%;
+    background-color: #333333;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.3 );
+}
+
+span a:hover {
+    padding: 10px;
+    transition: 1s;
+    border-radius: 10px;
+    background: #6A5ACD;
+}
+
+
+footer {
+    height: 100%;
+    padding-bottom: 170px;
+    margin-top: 60px;
+    width: 100%;
+    background: #1f1e1e;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: block;
+}
+
+footer .social_icon, footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li, footer .menu li {
+    list-style: none;
+}
+
+footer .social_icon li a, footer .menu li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover {
+    transform: translateY(-10px);
+}
+footer .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
